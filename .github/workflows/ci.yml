@@ -24,9 +24,3 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-  publish:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Placeholder Publish Step
-      run: echo "This is a placeholder for the actual publish steps."
